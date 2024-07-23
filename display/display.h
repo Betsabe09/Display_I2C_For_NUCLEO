@@ -4,7 +4,7 @@
 #define _DISPLAY_H_
 
 //=====[Declaration of public defines]=========================================
-
+#include <cstdint>
 //=====[Declaration of public data types]======================================
 
 typedef enum {
