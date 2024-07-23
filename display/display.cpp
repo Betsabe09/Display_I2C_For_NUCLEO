@@ -2,7 +2,6 @@
 
 #include "mbed.h"
 #include "display.h"
-#include <cstdint>
 
 //=====[Declaration of private defines]========================================
 
