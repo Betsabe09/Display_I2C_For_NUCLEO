@@ -5,9 +5,9 @@
 
 int main() {
     // Inicializar el LCD
-    displayInit( DISPLAY_CONNECTION_I2C_PCF8574_IO_EXPANDER );
-    displayCharPositionWrite( 0, 1 );
-    displayStringWrite( "Hola, Mundillo!!" );
+    displayInit();
+    displayCharPositionWrite( 3, 1 );
+    displayStringWrite( "ABCDEFGHI" );
 
     while (true) {
         thread_sleep_for(1000);
